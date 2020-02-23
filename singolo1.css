@@ -29,17 +29,15 @@
 body{
 	width: 1020px;
 	margin: 0 auto;
-	outline: 1px solid red;
-
 }
+
+/*--------------------------------------------------------------HEADER------------------------------------------------------------------*/
 
 .wrapper_for_header{
 	position: relative;
 	background-color: #2d303a;
 	height: 90px;
 	border-bottom: 6px solid #323746;
-	
-	
 }
 
 .main_menu{
@@ -47,8 +45,6 @@ body{
 	position: absolute;
 	right: 40px;
 	top: 20px;
-	
-	-outline: 1px solid yellow;
 }
 
 .main_menu ul li:last-child{
@@ -57,12 +53,9 @@ body{
 
 .main_menu ul li{
 	float: right;
-	margin-left: 30px;
+	margin-left: 31px;
 	list-style-type: disc;
 	color: #494e62;
-
-	-outline: 1px solid green;
-
 }
 
 .main_menu ul li a, h1 a{
@@ -71,7 +64,9 @@ body{
 	font-family: 'Lato', sans-sherif;
 	font-weight: bold;
 	font-size: 12px;
+	line-height: 1.3em;
 	text-transform: uppercase;
+	letter-spacing: -.3px;
 }
 
 .main_menu ul li a:hover{
@@ -90,4 +85,174 @@ h1 a{
 
 sup{
 	color: #f06c64;
+}
+
+/*-------------------------------------------------------MAIN---------------------------------------------------------------------*/
+
+.wrapper_for_middle_block{
+	position: relative;
+	background-color: #f06c64;
+	height: 594px;
+	border-bottom: 6px solid #ea676b;
+}
+
+.wrapper_for_middle_block:before{
+	content: '';
+	position: absolute;
+	top: 280px;
+	left: 43px;
+	width: 16px;
+	height: 27px;
+	background-image: url(assets/arr_left.png);
+	opacity: .2;
+	cursor: pointer;
+}
+
+.wrapper_for_middle_block:after{
+	content: '';
+	position: absolute;
+	top: 280px;
+	right: 43px;
+	width: 16px;
+	height: 27px;
+	background-image: url(assets/arr_right.png);
+	opacity: .2;
+	cursor: pointer;
+}
+
+.phone{
+	display: inline-block;
+}
+
+.vertical_phone{
+	margin-top: 55px;
+	margin-left: 110px;
+}
+
+.horizontal_phone{
+	position: absolute; 
+	right: 110px;
+	top: 175px;
+}
+
+/*----------------------------------------------------------------BOTTOM_BLOCK--------------------------------------------------------------------------------*/
+.wrapper_for_bottom_block{
+	background-color: #f2f2f2;
+	border-bottom: 6px solid #fff;
+	height: 500px;
+}
+.head_bottom_block{
+	margin: 0 40px;
+	padding-top: 60px;
+}
+
+.head_bottom_block h2{
+	color: #666d89;
+	font-family: 'Lato', sans-sherif;
+	font-weight: black;
+	font-size: 30px;
+	margin: 0;
+}
+
+.head_bottom_block p{
+	color: #767e9e;
+	font-family: 'Lato', sans-sherif;
+	font-weight: lighter;
+	font-size: 18px;
+	line-height: 150%;
+}
+
+.wrapper_for_three_collumn{
+	width: 960px;
+	margin: 30px auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.three_collumn_item{
+	width: 300px;
+	margin: 0 10px;
+	position: relative;
+}
+
+.three_collumn_item h3, .three_collumn_item p {
+	margin-left: 79px;
+	font-family: 'Lato', sans-sherif;
+}
+
+.three_collumn_item h3{
+	color: #666d89;
+	font-weight: black;
+	font-size: 18px;
+}
+.three_collumn_item p{
+	color: #767e9e;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 180%;
+	margin-top: -10px;
+}
+
+.pen_ink:before{
+	content: '';
+	background-image: url(assets/sprite.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    top: 19px;
+    background-position: -177px 0;
+}
+
+.bubble_ink:before{
+	content: '';
+	background-image: url(assets/sprite.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    top: 19px;
+    background-position: 0 0;
+}
+
+.star_ink:before{
+	content: '';
+	background-image: url(assets/sprite.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    top: 19px;
+    background-position: -295px 0;
+}
+
+.bulb_ink:before{
+	content: '';
+	background-image: url(assets/sprite.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    top: 19px;
+    background-position: -59px 0;
+}
+.heart_ink:before{
+	content: '';
+	background-image: url(assets/sprite.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    top: 19px;
+    background-position: -118px 0;
+}
+.phone_ink:before{
+	content: '';
+	background-image: url(assets/sprite.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    top: 19px;
+    background-position: -236px 0;
 }
