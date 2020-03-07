@@ -1,0 +1,46 @@
+@font-face{
+	font-family: 'Lato';
+	url('assets/fonts/Lato-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Lato';
+	url('assets/fonts/Lato-Black.ttf') format('truetype');
+	font-weight: black;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Lato';
+	url('assets/fonts/Lato-Light.ttf') format('truetype');
+	font-weight: lighter;
+	font-style: normal;
+}
+body{
+	width: 1020px;
+	margin: 0 auto;
+}
+
+textarea{
+	resize: none;
+}
+.social_btn_block{
+	display: flex;
+}
+.social_btn_block div{
+	border: 1px solid #656d89;
+	width: 14px;
+	height: 14px;
+	border-radius: 100%;
+	padding: 8px;
+	margin: 22px 8px 0 0;
+}
+.fcb{
+	margin-left:3px;
+}
+.twit{
+	margin-left:1px;
+}
+.edit_text{
+	letter-spacing: -.1px;
+}
