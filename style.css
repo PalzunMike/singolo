@@ -104,7 +104,7 @@ sup{
 	left: 43px;
 	width: 16px;
 	height: 27px;
-	background-image: url(assets/arr_left.png);
+	background-image: url(assets/img/arr_left.png);
 	opacity: .2;
 	cursor: pointer;
 }
@@ -116,7 +116,7 @@ sup{
 	right: 40px;
 	width: 16px;
 	height: 27px;
-	background-image: url(assets/arr_right.png);
+	background-image: url(assets/img/arr_right.png);
 	opacity: .2;
 	cursor: pointer;
 }
@@ -199,7 +199,7 @@ sup{
 
 .pen_ink:before{
 	content: '';
-	background-image: url(assets/sprite.png);
+	background-image: url(assets/img/sprite.png);
     background-repeat: no-repeat;
     position: absolute;
     width: 59px;
@@ -210,7 +210,7 @@ sup{
 
 .bubble_ink:before{
 	content: '';
-	background-image: url(assets/sprite.png);
+	background-image: url(assets/img/sprite.png);
     background-repeat: no-repeat;
     position: absolute;
     width: 59px;
@@ -221,7 +221,7 @@ sup{
 
 .star_ink:before{
 	content: '';
-	background-image: url(assets/sprite.png);
+	background-image: url(assets/img/sprite.png);
     background-repeat: no-repeat;
     position: absolute;
     width: 59px;
@@ -232,7 +232,7 @@ sup{
 
 .bulb_ink:before{
 	content: '';
-	background-image: url(assets/sprite.png);
+	background-image: url(assets/img/sprite.png);
     background-repeat: no-repeat;
     position: absolute;
     width: 59px;
@@ -242,7 +242,7 @@ sup{
 }
 .heart_ink:before{
 	content: '';
-	background-image: url(assets/sprite.png);
+	background-image: url(assets/img/sprite.png);
     background-repeat: no-repeat;
     position: absolute;
     width: 59px;
@@ -252,7 +252,7 @@ sup{
 }
 .phone_ink:before{
 	content: '';
-	background-image: url(assets/sprite.png);
+	background-image: url(assets/img/sprite.png);
     background-repeat: no-repeat;
     position: absolute;
     width: 59px;
@@ -523,7 +523,7 @@ textarea:-ms-input-placeholder{
 
 .contact_location:before{
 	content: '';
-	background-image: url(assets/sprite_contact.png);
+	background-image: url(assets/img/sprite_contact.png);
     background-repeat: no-repeat;
     position: absolute;
     width: 7px;
@@ -536,7 +536,7 @@ textarea:-ms-input-placeholder{
 
 .contact_phone:before{
 	content: '';
-	background-image: url(assets/sprite_contact.png);
+	background-image: url(assets/img/sprite_contact.png);
     background-repeat: no-repeat;
     position: absolute;
     width: 11px;
@@ -549,7 +549,7 @@ textarea:-ms-input-placeholder{
 
 .contact_mail:before{
 	content: '';
-	background-image: url(assets/sprite_contact.png);
+	background-image: url(assets/img/sprite_contact.png);
     background-repeat: no-repeat;
     position: absolute;
     width: 13px;
